@@ -1,0 +1,22 @@
+nav {
+  position: fixed;
+  border: solid;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 12vh;
+}
+
+.navigation {
+  border: solid;
+  display: grid;
+  padding: 0;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__item {
+  border: none;
+}

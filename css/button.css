@@ -1,0 +1,31 @@
+.btn {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btn__small {
+  width: 60px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btn__nav {
+  border: none;
+  background-color: transparent;
+
+  width: 70px;
+}
+
+.bookmark {
+  position: absolute;
+  right: 0px;
+  top: -20px;
+  mask-image: url(../asset/icons/bookmark_FILL1_wght400_GRAD0_opsz48.png);
+  mask-repeat: no-repeat;
+  border: none;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
