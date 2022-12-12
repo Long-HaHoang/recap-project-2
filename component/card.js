@@ -20,11 +20,11 @@ export function card(root) {
             Show Answer
           </button>
         </div>
-        <p class="qcard__answer" data-js="answerText">Lorem, ipsum dolor.</p>
+        <p class="qcard__answer" data-js="answerText" hidden>Lorem, ipsum dolor.</p>
         <ul class="qcard__tag">
-          <li class="qcard__li--html">#html</li>
-          <li class="qcard__li--css">#flexbox</li>
-          <li class="qcard__li--css">#css</li>
+          <li class="qcard__li">#html</li>
+          <li class="qcard__li">#flexbox</li>
+          <li class="qcard__li">#css</li>
         </ul>
       </section>
       <section class="qcard">
@@ -48,15 +48,15 @@ export function card(root) {
             Show Answer
           </button>
         </div>
-        <p class="qcard__answer" data-js="answerText">
+        <p class="qcard__answer" data-js="answerText" hidden>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam earum
           minima sit similique, voluptatem atque velit voluptatibus nisi
           praesentium dolores!
         </p>
         <ul class="qcard__tag">
-          <li class="qcard__li--html">#html</li>
-          <li class="qcard__li--css">#flexbox</li>
-          <li class="qcard__li--css">#css</li>
+          <li class="qcard__li">#html</li>
+          <li class="qcard__li">#flexbox</li>
+          <li class="qcard__li">#css</li>
         </ul>
       </section>
     `;
