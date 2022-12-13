@@ -1,5 +1,5 @@
 @import url(./css/global.css);
 @import url(./css/button.css);
-@import url(./css/header.css);
-@import url(./css/navigation.css);
-@import url(./css/card.css);
+@import url(./component/header/header.css);
+@import url(./component/footer/footer.css);
+@import url(./component/card/card.css);

@@ -2,9 +2,9 @@
 // Import const
 import { root } from "../index.js";
 // Import function
-import { addHeader } from "../component/header.js";
-import { addFooter } from "../component/footer.js";
-import { card } from "../component/card.js";
+import { addHeader } from "../component/header/header.js";
+import { addFooter } from "../component/footer/footer.js";
+import { card } from "../component/card/card.js";
 
 // Render all
 export function render() {

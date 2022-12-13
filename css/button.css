@@ -21,7 +21,9 @@
   position: absolute;
   right: 0px;
   top: -20px;
+  -webkit-mask-image: url(../asset/icons/bookmark_FILL1_wght400_GRAD0_opsz48.png);
   mask-image: url(../asset/icons/bookmark_FILL1_wght400_GRAD0_opsz48.png);
+  -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   border: none;
   background-color: red;
